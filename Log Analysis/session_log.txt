@@ -1,4 +1,5 @@
 Command I ran 
+sudo grep "session opened" /var/log/auth.log > log_analysis.txt
 
 2026-06-14T21:57:36.396572+00:00 jn6000-VM gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
 2026-06-14T21:57:36.461831+00:00 jn6000-VM (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
