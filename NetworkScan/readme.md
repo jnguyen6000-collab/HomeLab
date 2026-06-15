@@ -1,8 +1,7 @@
 # Network Scan – Home Lab Project
 
 ## Overview
-Used nmap to perform a network reconnaissance scan on a local virtual home lab environment. 
-The goal was to discover active hosts, identify open ports, and enumerate running services 
+Used nmap to scan my virtual home lab network to discover active hosts, identify open ports, and running services 
 
 ## Tools Used
 - nmap 7.98
@@ -10,7 +9,7 @@ The goal was to discover active hosts, identify open ports, and enumerate runnin
 - Linux terminal
 
 ## What I Did
-- Set up a Linux virtual machine as an isolated lab environment
+- Set up isolated Ubuntu VM
 - Used `ip a` to identify the network range of the VM subnet
 - Ran a service version scan across the entire /24 subnet
 - Analyzed results to identify active hosts, open ports, and running services
