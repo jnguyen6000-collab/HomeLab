@@ -10,4 +10,11 @@ Ubuntu
 
 #Tools used
 
+Linux: 
+
 Nmap 
+
+grep
+
+awk
+
