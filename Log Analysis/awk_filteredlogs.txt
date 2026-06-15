@@ -1,0 +1,19 @@
+Command I use:
+
+2026-06-14T21:58:02.483041+00:00 jn6000-VM pkexec[4765]: jn6000: Executing command [USER=root] [TTY=unknown] [CWD=/home/jn6000] [ /usr/lib/update-notifier/package-system-locked]
+2026-06-14T22:03:28.977579+00:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/apt update
+2026-06-14T22:03:30.744154+00:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/apt upgrade -y
+2026-06-15T11:47:25.984528-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/apt install nmap -y
+2026-06-15T13:52:15.106140-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/apt install nmap -y
+2026-06-15T14:01:13.700986-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/cp /home/jn6000/network_scan_results.txt /media/share
+2026-06-15T16:14:50.251565-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/cat /var/log/auth.log
+2026-06-15T16:18:38.124291-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep sudo /var/log/auth.log
+2026-06-15T16:20:08.571763-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep sudo /var/log/auth.log
+2026-06-15T16:21:15.416024-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep sudo /var/log/auth.log
+2026-06-15T16:22:23.510131-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep COMMAND /var/log/auth.log
+2026-06-15T16:31:07.625062-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep COMMAND /var/log/auth.log
+2026-06-15T16:34:15.595223-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep Failed /var/log/auth.log
+2026-06-15T16:35:15.088056-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep session opened /var/log/auth.log
+2026-06-15T16:40:30.978178-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep -i failed /var/log/auth.log
+2026-06-15T17:05:05.868967-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep COMMAND /var/log/auth.log
+2026-06-15T17:08:35.191595-04:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ;  /usr/bin/grep COMMAND /var/log/auth.log
