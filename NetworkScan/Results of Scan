@@ -1,0 +1,59 @@
+
+# Nmap 7.98 scan initiated Mon Jun 15 12:00:04 2026 as: nmap -sV -oN network_scan_results.txt 192.168.64.0/24
+Nmap scan report for _gateway (192.168.64.1)
+Host is up (0.00036s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT      STATE SERVICE VERSION
+53/tcp    open  domain  (generic dns response: NXDOMAIN)
+5000/tcp  open  rtsp
+7000/tcp  open  rtsp
+49152/tcp open  unknown
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port53-TCP:V=7.98%I=7%D=6/15%Time=6A302190%P=aarch64-unknown-linux-gnu%
+SF:r(DNSVersionBindReqTCP,6B,"\0i\0\x06\x81\x83\0\x01\0\0\0\x01\0\0\x07ver
+SF:sion\x04bind\0\0\x10\0\x01\0\0\x06\0\x01\0\0\x0e\x10\0@\x01a\x0croot-se
+SF:rvers\x03net\0\x05nstld\x0cverisign-grs\x03com\0x\xc3>\xbc\0\0\x07\x08\
+SF:0\0\x03\x84\0\t:\x80\0\x01Q\x80");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5000-TCP:V=7.98%I=7%D=6/15%Time=6A302191%P=aarch64-unknown-linux-gn
+SF:u%r(GetRequest,8E,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Length:\x20
+SF:0\r\nServer:\x20AirTunes/850\.19\.1\r\nX-Apple-ProcessingTime:\x201\r\n
+SF:X-Apple-RequestReceivedTimestamp:\x206505804\r\n\r\n")%r(RTSPRequest,8E
+SF:,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20A
+SF:irTunes/850\.19\.1\r\nX-Apple-ProcessingTime:\x201\r\nX-Apple-RequestRe
+SF:ceivedTimestamp:\x206505944\r\n\r\n")%r(HTTPOptions,8E,"HTTP/1\.1\x2040
+SF:3\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/850\.19\.
+SF:1\r\nX-Apple-ProcessingTime:\x202\r\nX-Apple-RequestReceivedTimestamp:\
+SF:x206510948\r\n\r\n")%r(FourOhFourRequest,8E,"HTTP/1\.1\x20403\x20Forbid
+SF:den\r\nContent-Length:\x200\r\nServer:\x20AirTunes/850\.19\.1\r\nX-Appl
+SF:e-ProcessingTime:\x202\r\nX-Apple-RequestReceivedTimestamp:\x206510963\
+SF:r\n\r\n")%r(SIPOptions,A0,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Len
+SF:gth:\x200\r\nServer:\x20AirTunes/850\.19\.1\r\nCSeq:\x2042\x20OPTIONS\r
+SF:\nX-Apple-ProcessingTime:\x201\r\nX-Apple-RequestReceivedTimestamp:\x20
+SF:6510973\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7000-TCP:V=7.98%I=7%D=6/15%Time=6A302195%P=aarch64-unknown-linux-gn
+SF:u%r(RTSPRequest,8E,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Length:\x2
+SF:00\r\nServer:\x20AirTunes/850\.19\.1\r\nX-Apple-ProcessingTime:\x203\r\
+SF:nX-Apple-RequestReceivedTimestamp:\x206505800\r\n\r\n")%r(GetRequest,8E
+SF:,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20A
+SF:irTunes/850\.19\.1\r\nX-Apple-ProcessingTime:\x202\r\nX-Apple-RequestRe
+SF:ceivedTimestamp:\x206510827\r\n\r\n")%r(HTTPOptions,8E,"HTTP/1\.1\x2040
+SF:3\x20Forbidden\r\nContent-Length:\x200\r\nServer:\x20AirTunes/850\.19\.
+SF:1\r\nX-Apple-ProcessingTime:\x203\r\nX-Apple-RequestReceivedTimestamp:\
+SF:x206510840\r\n\r\n")%r(FourOhFourRequest,8E,"HTTP/1\.1\x20403\x20Forbid
+SF:den\r\nContent-Length:\x200\r\nServer:\x20AirTunes/850\.19\.1\r\nX-Appl
+SF:e-ProcessingTime:\x203\r\nX-Apple-RequestReceivedTimestamp:\x206510854\
+SF:r\n\r\n")%r(SIPOptions,A0,"RTSP/1\.0\x20403\x20Forbidden\r\nContent-Len
+SF:gth:\x200\r\nServer:\x20AirTunes/850\.19\.1\r\nCSeq:\x2042\x20OPTIONS\r
+SF:\nX-Apple-ProcessingTime:\x203\r\nX-Apple-RequestReceivedTimestamp:\x20
+SF:6510867\r\n\r\n");
+
+Nmap scan report for jn6000-VM.local (192.168.64.2)
+Host is up (0.000040s latency).
+All 1000 scanned ports on jn6000-VM.local (192.168.64.2) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 15 12:02:55 2026 -- 256 IP addresses (2 hosts up) scanned in 171.19 seconds
