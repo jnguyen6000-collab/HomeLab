@@ -29,4 +29,4 @@ Used grep and awk to filter the logs on a Linux to find sudo activity, session e
   making raw log data cleaner and easier to read
 - `auth.log` records all authentication activity on a Linux 
  including sudo commands, session events, and login attempts
-
+- The logs did not show any failed attempts which means that there is no suspicious activity to report.
