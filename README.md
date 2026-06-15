@@ -1,32 +1,11 @@
-# # Home Lab Projects
+Homelab 
 
-## Overview
-Perform a network reconnaissance using a nmap scan on a local virtual home lab environment. 
-The goal was to discover active hosts, identify open ports, and enumerate running services 
+## Overview 
+There will be a list of projects listed in files that I am working on building. Each file will contain the goal, steps taken to reach that goal, and I have learned from the experiences.
 
-## Tools Used
-- nmap 7.98
-- Ubuntu 26.04 (ARM) running in UTM on macOS
-- Linux terminal
+## Homelab Resources include 
+UTM 
+Ubuntu 
 
-## What I Did
-- Set up a Linux virtual machine as an isolated lab environment using UTM and Ubuntu
-- Used `ip a` to identify the network range of the VM subnet
-- Ran a service version scan across the entire /24 subnet
-- Analyzed results to identify active hosts, open ports, and running services
-
-## Findings
-- 2 hosts discovered out of 256 possible addresses
-- Host 1 (192.168.64.1): UTM virtual gateway — ports 53 (DNS), 5000 and 7000 (AirPlay/RTSP), 49152 (unknown) open
-- Host 2 (192.168.64.2): Local VM — all 1000 ports closed, no exposed services
-
-## What This Demonstrates
-- Network reconnaissance using nmap
-- Understanding of CIDR notation and subnetting (/24)
-- Ability to interpret port scan results and identify running services
-- Basic Linux command line proficiency
-
-## How To Run It Yourself
-1. Install nmap: `sudo apt install nmap -y`
-2. Find your network range: `ip a`
-3. Run the scan: `nmap -sV <your-network-range>/24 -oN results.txt`
+#Tools used
+Nmap 
