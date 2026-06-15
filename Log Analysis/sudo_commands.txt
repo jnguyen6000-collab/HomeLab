@@ -1,4 +1,5 @@
 Command I ran:
+sudo grep "COMMAND" /var/log/auth.log > sudo_commands.txt
 
 2026-06-14T21:58:02.483041+00:00 jn6000-VM pkexec[4765]: jn6000: Executing command [USER=root] [TTY=unknown] [CWD=/home/jn6000] [COMMAND=/usr/lib/update-notifier/package-system-locked]
 2026-06-14T22:03:28.977579+00:00 jn6000-VM sudo: jn6000 : TTY=/dev/pts/0 ; PWD=/home/jn6000 ; USER=root ; COMMAND=/usr/bin/apt update
