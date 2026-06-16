@@ -1,1 +1,10 @@
+Overview
 
+Used ufw command to manage the rules of the firewall.
+
+Tools Used
+ufw
+Ubuntu 26.04 (ARM) running in UTM on macOS
+Linux terminal
+
+What I Did
