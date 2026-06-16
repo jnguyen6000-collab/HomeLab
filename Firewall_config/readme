@@ -1,10 +1,25 @@
-Overview
+# Firewall Configuration
 
-Used ufw command to manage the rules of the firewall.
+## Overview
+Configured a host-based firewall on a Linux VM using UFW (Uncomplicated Firewall).
+The goal was to establish a baseline security policy by defining rules for 
+allowed and denied traffic based on real-world best practices.
 
-Tools Used
-ufw
-Ubuntu 26.04 (ARM) running in UTM on macOS
-Linux terminal
+## Tools Used
+- UFW (Uncomplicated Firewall)
+- Ubuntu 26.04 (ARM) running in UTM on macOS
+- Linux terminal
 
-What I Did
+## What I Did
+- Set default policy to deny all incoming traffic and allow all outgoing traffic
+- Allowed SSH (port 22) to maintain remote management access
+- Allowed HTTP (port 80) and HTTPS (port 443) for web traffic
+- Explicitly blocked Telnet (port 23) due to its lack of encryption
+- Verified ruleset using `ufw status verbose` and saved output for documentation
+
+
+## Skills Demonstrated
+- Linux firewall configuration with UFW
+- Understanding of common ports and protocols
+- Default deny security policy implementation
+- Documenting security decisions with clear reasoning
