@@ -1,5 +1,3 @@
-#Log Analysis – Home Lab Project
-
 ## Overview
 Used grep and awk to filter the logs on a Linux to find sudo activity, session events, and any failed attempts.
 
@@ -10,16 +8,15 @@ Used grep and awk to filter the logs on a Linux to find sudo activity, session e
 - Linux terminal
 
 ## What I Did
-- Set up a Linux virtual machine as an isolated lab environment
 - Accessed the Linux authentication log at /var/log/auth.log
-- Used grep to filter for sudo commands, session events, and failed login attempts
-- Used awk to extract and reformat specific fields from log output
-- Saved results to a file for documentation and review
+- Used grep to filter for sudo commands, sessions, and failed login attempts
+- Used awk to extract for a cleaner output
+- Saved results to a file for documentation 
 
 ## Findings
 - All sudo commands logged were performed by me the user jn6000
 - No failed login attempts were detected because it was a new VM. 
-- Session open and close events recorded for each login
+- Session open and close events recorded for each login was normal
 
 
 ## What I Learned
