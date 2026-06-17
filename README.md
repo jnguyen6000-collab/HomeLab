@@ -1,6 +1,7 @@
 # Home Lab
 
 ## Overview
+
 A personal cybersecurity lab built on a virtualized Ubuntu environment 
 using UTM on macOS. This lab serves as a safe, isolated sandbox to 
 practice and document real security concepts without risk to my main 
